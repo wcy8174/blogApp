@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="home"
+        android:id="@+id/id1"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:id="@+id/id2"
+        android:title="MyBlog"
+        android:icon="@drawable/message"
+        />
+    <item
+        android:title="contacts"
+        android:id="@+id/id3"
+        android:icon="@drawable/contacts"
+        />
+    <item
+        android:title="me"
+        android:id="@+id/id4"
+        android:icon="@drawable/my"
+        />
+
+</menu>

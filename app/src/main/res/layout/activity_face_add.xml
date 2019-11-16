@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/photoBtn1"
+            android:text="拍照"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+        <Button
+            android:id="@+id/selectBtn1"
+            android:text="相册"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <Button
+        android:id="@+id/faceAddBtn1"
+        android:text="添加"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <EditText
+        android:id="@+id/getUserId1"
+        android:hint="input your uesr name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <ImageView
+        android:id="@+id/faceAddPhoto1"
+        android:layout_gravity="center"
+        android:src="@drawable/avatar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginRight="5dp"></ImageView>
+
+
+
+</LinearLayout>
