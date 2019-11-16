@@ -13,6 +13,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import com.example.chatapp.FunctionDisplay.FaceAIActivity;
+import com.example.chatapp.FunctionDisplay.webViewFunction;
 import com.example.chatapp.Logining;
 import com.example.chatapp.R;
 import java.io.IOException;
@@ -66,7 +67,9 @@ public class chatMy extends Fragment implements View.OnClickListener{
                 alterPassword();
                 break;
             case R.id.extend:
-                Toast.makeText(getContext(),"测试",Toast.LENGTH_SHORT).show();
+                Intent intent2 = new Intent(getActivity(), webViewFunction.class);
+                startActivity(intent2);
+                Toast.makeText(getContext(),"测试123",Toast.LENGTH_SHORT).show();
         }
     }
     //修改密码
